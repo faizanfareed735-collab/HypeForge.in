@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Login to your HypeForge account.">
+
+    <title>Login | HypeForge</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="auth.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            HypeForge
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#creators">Creators</a>
+            <a href="index.html#brands">Brands</a>
+            <a href="index.html#about">About</a>
+            <a href="register.html">Register</a>
+        </nav>
+
+    </header>
+
+
+    <!-- LOGIN -->
+
+    <main class="auth-page">
+
+        <section class="auth-container">
+
+            <div class="auth-header">
+
+                <p class="section-label">
+                    WELCOME BACK
+                </p>
+
+                <h1>
+                    Login to
+                    <span>HypeForge.</span>
+                </h1>
+
+                <p>
+                    Access your creator or brand account
+                    and continue building opportunities.
+                </p>
+
+            </div>
+
+
+            <form id="loginForm" class="auth-form">
+
+                <div class="form-group">
+
+                    <label for="loginEmail">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="loginEmail"
+                        name="email"
+                        placeholder="you@example.com"
+                        autocomplete="email"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="loginPassword">
+                        Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="loginPassword"
+                        name="password"
+                        placeholder="Enter your password"
+                        autocomplete="current-password"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-options">
+
+                    <label class="remember-me">
+
+                        <input
+                            type="checkbox"
+                            id="rememberMe"
+                        >
+
+                        <span>Remember me</span>
+
+                    </label>
+
+                    <a href="#">
+                        Forgot password?
+                    </a>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="auth-button"
+                >
+                    Login
+                </button>
+
+            </form>
+
+
+            <div class="auth-divider">
+                <span>OR</span>
+            </div>
+
+
+            <div class="auth-register">
+
+                <p>
+                    Don't have an account?
+                </p>
+
+                <a href="register.html">
+                    Create a HypeForge account
+                </a>
+
+            </div>
+
+
+            <div class="back-home">
+
+                <a href="index.html">
+                    ← Back to HypeForge
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-logo">
+            HypeForge
+        </div>
+
+        <p>
+            Where Creators Meet Opportunities.
+        </p>
+
+        <p class="copyright">
+            © 2026 HypeForge. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="auth.js"></script>
+
+</body>
+</html>
