@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Create your HypeForge creator or brand account.">
+
+    <title>Register | HypeForge</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="auth.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            HypeForge
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#creators">Creators</a>
+            <a href="index.html#brands">Brands</a>
+            <a href="index.html#about">About</a>
+            <a href="login.html">Login</a>
+        </nav>
+
+    </header>
+
+
+    <!-- REGISTER -->
+
+    <main class="auth-page">
+
+        <section class="auth-container register-container">
+
+            <div class="auth-header">
+
+                <p class="section-label">
+                    JOIN HYPEFORGE
+                </p>
+
+                <h1>
+                    Create Your
+                    <span>Account.</span>
+                </h1>
+
+                <p>
+                    Join HypeForge and connect with creators,
+                    brands, sponsors, and opportunities.
+                </p>
+
+            </div>
+
+
+            <form id="registerForm" class="auth-form">
+
+                <!-- ACCOUNT TYPE -->
+
+                <div class="form-group">
+
+                    <label for="accountType">
+                        I am a
+                    </label>
+
+                    <select
+                        id="accountType"
+                        name="accountType"
+                        required
+                    >
+
+                        <option value="">
+                            Select account type
+                        </option>
+
+                        <option value="creator">
+                            Creator
+                        </option>
+
+                        <option value="brand">
+                            Brand
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- NAME -->
+
+                <div class="form-group">
+
+                    <label for="registerName">
+                        Full Name / Brand Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="registerName"
+                        name="name"
+                        placeholder="Enter your name"
+                        autocomplete="name"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- EMAIL -->
+
+                <div class="form-group">
+
+                    <label for="registerEmail">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="registerEmail"
+                        name="email"
+                        placeholder="you@example.com"
+                        autocomplete="email"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- USERNAME -->
+
+                <div class="form-group">
+
+                    <label for="registerUsername">
+                        Username
+                    </label>
+
+                    <input
+                        type="text"
+                        id="registerUsername"
+                        name="username"
+                        placeholder="@yourusername"
+                        autocomplete="username"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- PASSWORD -->
+
+                <div class="form-group">
+
+                    <label for="registerPassword">
+                        Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="registerPassword"
+                        name="password"
+                        placeholder="Create a password"
+                        autocomplete="new-password"
+                        minlength="8"
+                        required
+                    >
+
+                    <small>
+                        Password must contain at least 8 characters.
+                    </small>
+
+                </div>
+
+
+                <!-- CONFIRM PASSWORD -->
+
+                <div class="form-group">
+
+                    <label for="confirmPassword">
+                        Confirm Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="confirmPassword"
+                        name="confirmPassword"
+                        placeholder="Confirm your password"
+                        autocomplete="new-password"
+                        minlength="8"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- TERMS -->
+
+                <div class="terms">
+
+                    <label>
+
+                        <input
+                            type="checkbox"
+                            id="terms"
+                            required
+                        >
+
+                        <span>
+                            I agree to the HypeForge Terms and
+                            Privacy Policy.
+                        </span>
+
+                    </label>
+
+                </div>
+
+
+                <!-- BUTTON -->
+
+                <button
+                    type="submit"
+                    class="auth-button"
+                >
+                    Create Account
+                </button>
+
+            </form>
+
+
+            <div class="auth-divider">
+                <span>OR</span>
+            </div>
+
+
+            <div class="auth-register">
+
+                <p>
+                    Already have an account?
+                </p>
+
+                <a href="login.html">
+                    Login to HypeForge
+                </a>
+
+            </div>
+
+
+            <div class="back-home">
+
+                <a href="index.html">
+                    ← Back to HypeForge
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-logo">
+            HypeForge
+        </div>
+
+        <p>
+            Where Creators Meet Opportunities.
+        </p>
+
+        <p class="copyright">
+            © 2026 HypeForge. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="auth.js"></script>
+
+</body>
+</html>
